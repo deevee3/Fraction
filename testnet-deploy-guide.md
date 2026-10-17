@@ -9,13 +9,11 @@ nothing touches mainnet. Run this from your iMac terminal.
 
 ## 0. Get the code on your iMac
 
-The prototype currently lives only in my workspace — it has not been
-pushed to GitHub yet. Tell me which repo to push it to (I'll mirror
-Glenride org + deevee3 per your mirror rule), then:
+The prototype is on GitHub at **https://github.com/deevee3/Fraction.git** (pushed 2026-10-17). On your iMac:
 
 ```
-git clone <repo-url>
-cd fractional-mutual-fund-prototype
+git clone https://github.com/deevee3/Fraction.git
+cd Fraction
 ```
 
 ## 1. Install Foundry
