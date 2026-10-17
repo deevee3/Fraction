@@ -1,0 +1,13 @@
+# Foundry
+out/
+cache/
+broadcast/
+
+# Env — never commit real keys
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
