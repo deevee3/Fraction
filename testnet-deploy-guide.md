@@ -49,10 +49,18 @@ only, never reuse it for mainnet.
 
 ## 3. Claim free test ETH
 
-Go to **https://faucet.quicknode.com/base/sepolia** in your browser,
-paste your address, complete the check, and claim.
+Go to a Base Sepolia faucet in your browser, paste your address, complete
+the check, and claim. Faucet rules change often — test before you trust:
 
-No account needed, no mainnet balance needed, once per 12 hours.
+- **https://faucet.quicknode.com/base/sepolia** — tried live on 2026-10-17:
+  rejected the claim, now requires a small ETH balance on Ethereum mainnet
+  for the wallet itself. Only useful if your wallet already has mainnet ETH.
+- Other options (unverified — check their current rules before relying on
+  them): the Coinbase Developer Platform faucet, the Alchemy Base Sepolia
+  faucet (needs a free Alchemy account), or bridging Sepolia ETH from
+  Ethereum Sepolia to Base Sepolia via the official bridge (needs Sepolia
+  ETH first, from a Sepolia faucet).
+
 Reason: deploying contracts costs gas, and testnet ETH is free play money.
 
 Confirm it landed:
