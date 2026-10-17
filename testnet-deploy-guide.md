@@ -88,9 +88,9 @@ addresses from the output.
 Open **https://sepolia.basescan.org**, paste each contract address.
 
 **a. Get yourself verified.** On IdentityRegistry → Contract → Write
-Contract → Connect your wallet → `addInvestor`: your address, and an expiry
-timestamp far in the future, e.g. `1893456000` (2030-01-01). You hold the
-COMPLIANCE_ROLE as deployer, so this works.
+Contract → Connect your wallet → `addInvestor`: your address, and `0` for
+the expiry (0 = no expiry, per the contract). You hold the COMPLIANCE_ROLE
+as deployer, so this works.
 
 **b. Get demo stablecoins.** On MockUSDC → Write Contract → `mint`: your
 address, `100000000` (that's 100 USDC in 6-decimal base units). Open mint —
